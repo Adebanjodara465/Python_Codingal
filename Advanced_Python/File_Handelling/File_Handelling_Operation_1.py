@@ -1,3 +1,4 @@
+
 #open the file
 file = open("Codingal_text.txt", "r")
 
@@ -6,3 +7,4 @@ print(file.read())
 
 #close the file
 file.close()
+
