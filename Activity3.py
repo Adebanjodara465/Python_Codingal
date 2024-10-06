@@ -15,3 +15,4 @@ data1 +=data2
 print("Merging the two files...")  
 with open("MergeFile.txt",'w') as fp:
     fp.write(data1)      
+print(data1)    
