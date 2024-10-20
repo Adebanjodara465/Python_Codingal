@@ -6,6 +6,8 @@ root.title('image')
 root.geometry('500x500')
 
 #opening the image
+
+#the r is to tell python to treat the path as a raw string, to avoid any escape sequences
 upload = Image.open(r"C:\Users\HP\Desktop\Python_Codingal\Tkinter\picff.jpg")
 upload = upload.resize((370, 350), Image.Resampling.LANCZOS)
 
